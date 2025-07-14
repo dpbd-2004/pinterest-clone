@@ -29,27 +29,49 @@ A full-stack Pinterest-inspired web application built using **Node.js**, **Expre
 ## **📂 Project Structure**
 
 pinterest-clone/
+
 ├── models/
+
 │ ├── post.js # Post schema (image, text, date, likes)
+
 │ └── users.js # User schema (username, password, email, posts, etc.)
+
 │
+
 ├── routes/
+
 │ ├── index.js # Main routing logic
+
 │ └── users.js # User auth routes
+
 │
+
 ├── views/
+
 │ ├── feed.ejs # Main feed page with pins
+
 │ ├── login.ejs # Login page
+
 │ ├── register.ejs # Registration page
+
 │ ├── upload.ejs # Upload form for pins
+
 │ └── partials/ # Header/footer partials
+
 │
+
 ├── public/
+
 │ └── uploads/ # Uploaded image files
+
 │
+
 ├── app.js # Express app entry point
+
 ├── package.json # Project metadata and dependencies
+
 └── .gitignore # Ignoring node_modules and other files
+
 
 
 ---
